@@ -29,5 +29,5 @@ body {
     height: 100vh;
     z-index: -1;
 
-    background-image: radial-gradient(circle at 50% 180%, red, hsla(0, 100%, 50%, 0.4) 25%, hsla(0, 100%, 50%, 0.2) 50%, #0000 100%);
+    background-image: radial-gradient(circle at 50% 200%, #005339 30%, #004a3f, #003f43, #003344, #002642, #00193d, #000e31, #000822, #000313, #000106, #000001, #000000 100%);
 }
