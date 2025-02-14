@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: inter;
+    font-size: 1.2rem;
+    font-weight: 250;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+    background-image: radial-gradient(circle at 50% 180%, red, hsla(0, 100%, 50%, 0.4) 25%, hsla(0, 100%, 50%, 0.2) 50%, #0000 100%);
+}
