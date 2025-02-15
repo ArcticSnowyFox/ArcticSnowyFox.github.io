@@ -28,7 +28,7 @@ body {
 .background {
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     z-index: -1;
 
     background-image: radial-gradient(circle at 50% 200%, #005339 30%, #004a3f, #003f43, #003344, #002642, #00193d, #000e31, #000822, #000313, #000106, #000001, #000000 100%);
