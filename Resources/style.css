@@ -81,6 +81,8 @@ a {
 
 @media screen and (max-width: 701px) {
     .big-title {
-        font-size: 3rem;
-        }
+        font-size: 12vw;
+    }
+    
+    
 }
