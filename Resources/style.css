@@ -84,5 +84,7 @@ a {
         font-size: 12vw;
     }
     
-    
+    .background {
+        height: 110vh;
+    }
 }
