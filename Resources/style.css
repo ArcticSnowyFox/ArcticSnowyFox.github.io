@@ -97,12 +97,12 @@ a {
 @media screen and (max-width: 701px) {
     .big-title {
         font-size: 12vw;
-        max-width: 95vw;
+        max-width: 100vw;
     }
 
     .medium-title {
-        font-size: 8vw;
-        max-width: 95vw;
+        font-size: 10vw;
+        max-width: 100vw;
     }
 
     .background {
