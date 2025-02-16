@@ -47,10 +47,22 @@ a {
     text-decoration: none;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .big-title {
     margin-top: 1rem;
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-weight: 500;
+    max-width: 90vw;
+}
+
+.medium-title {
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-weight: 500;
+    max-width: 90vw;
 }
 
 .big-list {
@@ -58,6 +70,7 @@ a {
     align-self: flex-end;
     overflow-x: visible;
     margin-top: 1rem;
+
     /* border: 1px solid #fff; */
 }
 
@@ -71,6 +84,8 @@ a {
     border-bottom: 0.01rem solid #0000;
     margin-bottom: 0.15rem;
     transition: 200ms ease-in-out;
+
+    /* border: 1px solid #fff; */
 }
 
 .big-list-item:hover {
@@ -82,9 +97,35 @@ a {
 @media screen and (max-width: 701px) {
     .big-title {
         font-size: 12vw;
+        max-width: 95vw;
     }
-    
+
+    .medium-title {
+        font-size: 8vw;
+        max-width: 95vw;
+    }
+
     .background {
-        height: 110vh;
+        height: 120vh;
+        background-image: radial-gradient(circle at 50% 140%, #005339 30%, #004a3f, #003f43, #003344, #002642, #00193d, #000e31, #000822, #000313, #000106, #000001, #000000 110%);
+    }
+
+    .big-list {
+        width: auto;
+        align-self: auto;
+        padding-left: 22vw;
+    }
+
+    .big-list-item {
+        font-size: 16vw;
+        text-decoration: underline;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .big-list-item:hover {
+        font-weight: 500;
+        margin-bottom: 0;
+        border-bottom: none;
     }
 }
