@@ -66,7 +66,7 @@ a {
 }
 
 .big-list {
-    width: 55vw;
+    width: calc(50vw + 10rem);
     align-self: flex-end;
     overflow-x: visible;
     margin-top: 1rem;
@@ -75,7 +75,7 @@ a {
 }
 
 .big-list-item {
-    width: min-content;
+    width: fit-content;
     overflow-x: visible;
     font-size: 4rem;
     font-weight: 300;
@@ -118,7 +118,7 @@ a {
     }
 
     .big-list-item {
-        font-size: 14vw;
+        font-size: 11vw;
         text-decoration: underline;
         margin-bottom: 0;
         border-bottom: none;
