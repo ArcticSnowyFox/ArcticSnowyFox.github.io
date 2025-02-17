@@ -92,6 +92,7 @@ a {
     font-weight: 500;
     border-bottom: solid 0.3rem #fff;
     margin-bottom: 0rem;
+    letter-spacing: -0.07rem;
 }
 
 @media screen and (max-width: 701px) {
@@ -113,7 +114,7 @@ a {
     .big-list {
         width: auto;
         align-self: auto;
-        padding-left: 22vw;
+        padding-left: 12vw;
     }
 
     .big-list-item {
