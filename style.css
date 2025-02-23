@@ -165,6 +165,7 @@ ul {
 .medium-list-title {
     font-size: 2.5rem;
     font-weight: 400;
+    margin-bottom: 0.5rem;
 }
 
 .medium-list-item {
@@ -173,9 +174,8 @@ ul {
     font-size: 1.8rem;
     font-weight: 250;
     text-align: left;
+    margin-bottom: 0.2rem;
 
-    border-bottom: 0.01rem solid #0000;
-    margin-bottom: 0.15rem;
     transition: 200ms ease-in-out;
 
     /* border: #fff solid 1.5px; */
@@ -183,9 +183,8 @@ ul {
 
 .medium-list-item:hover {
     font-weight: 400;
-    border-bottom: solid 0.2rem #fff;
-    margin-bottom: 0rem;
-    letter-spacing: -0.05rem;
+    text-decoration: underline;
+    letter-spacing: -0.04rem;
 }
 
 @media screen and (max-width: 1000px) {
