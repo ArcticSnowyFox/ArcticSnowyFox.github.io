@@ -188,6 +188,8 @@ ul {
     text-align: left;
     margin-top: 0.6rem;
 
+    padding-right: 0.6rem;
+    padding-left: 0rem;
     transition: 200ms ease-in-out;
 
     /* border: #fff solid 1.5px; */
@@ -197,6 +199,8 @@ ul {
     font-weight: 400;
     text-decoration: underline;
     letter-spacing: -0.03rem;
+    padding-right: 0;
+    padding-left: 0.5rem;
 }
 
 @media screen and (max-width: 1000px) {
