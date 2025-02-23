@@ -100,7 +100,19 @@ ul {
 
     .background {
         height: 120vh;
-        background-image: radial-gradient(circle at 50% 140%, #005339 30%, #004a3f, #003f43, #003344, #002642, #00193d, #000e31, #000822, #000313, #000106, #000001, #000000 110%);
+        background-image: radial-gradient(circle at 50% 140%,
+                #005339 30%,
+                #004a3f,
+                #003f43,
+                #003344,
+                #002642,
+                #00193d,
+                #000e31,
+                #000822,
+                #000313,
+                #000106,
+                #000001,
+                #000000 110%);
     }
 
     .big-list {
@@ -184,7 +196,7 @@ ul {
 .medium-list-item:hover {
     font-weight: 400;
     text-decoration: underline;
-    letter-spacing: -0.04rem;
+    letter-spacing: -0.03rem;
 }
 
 @media screen and (max-width: 1000px) {
