@@ -112,7 +112,7 @@ ul {
                 #000313,
                 #000106,
                 #000001,
-                #000000 110%);
+                #000000 115%);
     }
 
     .big-list {
@@ -207,5 +207,66 @@ ul {
     .medium-title {
         font-size: 10vw;
         max-width: 100vw;
+    }
+
+    .medium-list-container {
+        margin-top: 6vw;
+        width: 93vw;
+        height: min-content;
+        align-self: center;
+        margin-right: 0vw;
+        margin-bottom: 5vw;
+    
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-items: start;
+        gap: 3.5vw 0vw;
+    
+        /* border: #fff solid 1.5px; */
+    }
+    
+    .medium-list {
+        width: 100%;
+        overflow: visible;
+    
+        background-color: #0005;
+        border-radius: 4vw;
+        box-shadow: inset 0 0 12vw #0002;
+        padding: 3vw;
+        padding-left: 8vw;
+    
+        /* border: #fff solid 1.5px; */
+    }
+    
+    .medium-list-title {
+        font-size: 8vw;
+        font-weight: 400;
+    }
+    
+    .medium-list-item {
+        width: fit-content;
+        overflow-x: visible;
+        font-size: 6vw;
+        font-weight: 250;
+        text-align: left;
+        margin-top: 2.5vw;
+        text-decoration: underline;
+    
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        transition: 50ms ease-in-out;
+    
+        /* border: #fff solid 1.5px; */
+    }
+    
+    .medium-list-item:hover {
+        font-weight: unset;
+        text-decoration: underline;
+        letter-spacing: unset;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
     }
 }
