@@ -101,7 +101,7 @@ ul {
     .background {
         height: 120vh;
         background-image: radial-gradient(circle at 50% 140%,
-                #005339 30%,
+                #005339 20%,
                 #004a3f,
                 #003f43,
                 #003344,
@@ -112,7 +112,7 @@ ul {
                 #000313,
                 #000106,
                 #000001,
-                #000000 115%);
+                #000000 150%);
     }
 
     .big-list {
@@ -240,8 +240,9 @@ ul {
     }
     
     .medium-list-title {
-        font-size: 8vw;
-        font-weight: 400;
+        font-size: 9vw;
+        font-weight: 500;
+        margin-bottom: 2vw;
     }
     
     .medium-list-item {
@@ -250,12 +251,16 @@ ul {
         font-size: 6vw;
         font-weight: 250;
         text-align: left;
-        margin-top: 2.5vw;
-        text-decoration: underline;
+        margin-top: 3vw;
+        text-decoration: none;
+
+        background-color: hsla(0, 0%, 100%, 0.07);
+        box-shadow: 0 0 5vw hsla(0, 0%, 0%, 0.6);
+        border-radius: 2vw;
     
         margin-right: 0;
         padding-right: 0;
-        padding-left: 0;
+        padding-left: 1vw;
         transition: 50ms ease-in-out;
     
         /* border: #fff solid 1.5px; */
@@ -263,10 +268,10 @@ ul {
     
     .medium-list-item:hover {
         font-weight: unset;
-        text-decoration: underline;
+        text-decoration: none;
         letter-spacing: unset;
         margin-right: 0;
         padding-right: 0;
-        padding-left: 0;
+        padding-left: 1vw;
     }
 }
