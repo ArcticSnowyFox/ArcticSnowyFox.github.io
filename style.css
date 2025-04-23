@@ -140,7 +140,7 @@ ul {
 
 .medium-title {
     margin-top: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
     max-width: 90vw;
 }
@@ -155,7 +155,7 @@ ul {
     column-count: auto;
     column-gap: 1vw;
     row-gap: 1vw;
-    column-width: 30rem;
+    column-width: 20rem;
 
     /* display: flex; */
     /* flex-flow: row wrap; */
@@ -174,31 +174,32 @@ ul {
     margin: 0 0 1vw;
 
     background-color: #0005;
-    border-radius: 1rem;
-    box-shadow: inset 0 0 4rem #0002;
-    padding: 0.5rem;
-    padding-bottom: 1rem;
-    padding-left: 2.4rem;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 0 2rem #0002;
+    padding: 0.25rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.6rem;
 
     /* border: #fff solid 1.5px; */
 }
 
 .medium-list-title {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 1.6rem;
+    font-weight: 450;
 }
 
 .medium-list-item {
     width: fit-content;
     overflow-x: visible;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-weight: 250;
     text-align: left;
-    margin-top: 0.6rem;
+    margin-top: 0.5rem;
+    line-height: 1.2rem;
 
-    padding-right: 0.6rem;
+    padding-right: 0.3rem;
     padding-left: 0rem;
-    transition: 200ms ease-in-out;
+    transition: 150ms ease-in-out;
 
     /* border: #fff solid 1.5px; */
 }
@@ -206,9 +207,9 @@ ul {
 .medium-list-item:hover {
     font-weight: 400;
     text-decoration: underline;
-    letter-spacing: -0.03rem;
+    letter-spacing: -0.014rem;
     padding-right: 0;
-    padding-left: 0.5rem;
+    padding-left: 0.25rem;
 }
 
 @media screen and (max-width: 799px) {
