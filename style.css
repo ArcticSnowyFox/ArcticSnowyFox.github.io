@@ -198,15 +198,15 @@ ul {
 
     padding-right: 0.3rem;
     padding-left: 0rem;
-    transition: 150ms ease-in-out;
+    transition: 150ms ease-out;
 
     /* border: #fff solid 1.5px; */
 }
 
 .medium-list-item:hover {
-    font-weight: 400;
+    /* font-weight: 400; */
     text-decoration: underline;
-    letter-spacing: -0.014rem;
+    /* letter-spacing: -0.014rem; */
     padding-right: 0;
     padding-left: 0.25rem;
 }
