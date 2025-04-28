@@ -153,9 +153,8 @@ ul {
     margin-bottom: 5vw;
 
     column-count: auto;
-    column-gap: 1vw;
-    row-gap: 1vw;
-    column-width: 20rem;
+    column-gap: 1.1rem;
+    column-width: 21rem;
 
     /* display: flex; */
     /* flex-flow: row wrap; */
@@ -171,7 +170,7 @@ ul {
     overflow: visible;
 
     display: inline-block;
-    margin: 0 0 1vw;
+    margin: 0 0 1.1rem;
 
     background-color: #0005;
     border-radius: 0.5rem;
