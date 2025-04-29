@@ -154,7 +154,7 @@ ul {
 
     column-count: auto;
     column-gap: 1.1rem;
-    column-width: calc(25rem - 1cm);
+    column-width: calc(25rem - 2cm);
 
     /* display: flex; */
     /* flex-flow: row wrap; */
