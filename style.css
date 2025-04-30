@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Variable.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NotoSansJP';
+    src: url('fonts/NotoSansJP-VariableFont.ttf') format('truetype');
+}
 
 * {
     margin: 0;
@@ -6,7 +14,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
 
-    font-family: inter;
+    font-family: Inter, NotoSansJP, 'Arial';
     font-size: 1.2rem;
     font-weight: 250;
     font-style: normal;
