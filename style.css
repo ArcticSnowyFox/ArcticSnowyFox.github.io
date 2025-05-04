@@ -216,7 +216,7 @@ ul {
     text-decoration: underline;
     /* letter-spacing: -0.014rem; */
     padding-right: 0;
-    padding-left: 0.25rem;
+    padding-left: 0.3rem;
 }
 
 @media screen and (max-width: 799px) {
