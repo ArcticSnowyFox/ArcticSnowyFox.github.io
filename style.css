@@ -26,9 +26,12 @@ body {
     color: #fff;
     text-align: center;
 
+    width: 100vw;
+    min-height: 100vh;
+
     display: flex;
     flex-flow: column nowrap;
-    justify-content: start;
+    /* justify-content: start; */
     align-items: center;
 }
 
@@ -98,6 +101,33 @@ ul {
     border-bottom: solid 0.3rem #fff;
     margin-bottom: 0rem;
     letter-spacing: -0.05rem;
+}
+
+.main-page-info {
+    width: 100%;
+    height: min-content;
+    margin-top: auto;
+    margin-bottom: 0.4rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: 250;
+}
+
+.copyright-text {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.main-page-suggestion-link {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: line-through; /* make it underline when link is valid; */
+    color: #888;
 }
 
 @media screen and (max-width: 1000px) {
