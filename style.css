@@ -107,7 +107,7 @@ ul {
     width: 100%;
     height: min-content;
     margin-top: auto;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
 
     display: flex;
     flex-flow: row nowrap;
@@ -126,7 +126,8 @@ ul {
 .main-page-suggestion-link {
     font-size: inherit;
     font-weight: inherit;
-    text-decoration: line-through; /* make it underline when link is valid; */
+    text-decoration: line-through;
+    /* make it underline when link is valid; */
     color: #888;
 }
 
@@ -170,6 +171,12 @@ ul {
     .big-list-item:hover {
         border-bottom: none;
         letter-spacing: -0.23vw;
+    }
+
+    .main-page-info {
+        font-size: 4.5vw;
+        font-weight: 200;
+        margin-bottom: 3vw;
     }
 }
 
