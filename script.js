@@ -1,0 +1,1 @@
+document.getElementById('main-page-suggestion-link').onclick = () => alert('Check Back Tomorrow');

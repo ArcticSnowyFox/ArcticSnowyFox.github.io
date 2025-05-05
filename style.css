@@ -129,6 +129,7 @@ ul {
     text-decoration: line-through;
     /* make it underline when link is valid; */
     color: #888;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
