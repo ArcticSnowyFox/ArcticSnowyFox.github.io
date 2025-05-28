@@ -121,9 +121,8 @@ ul {
 .main-page-suggestion-link {
     font-size: inherit;
     font-weight: inherit;
-    text-decoration: line-through;
-    /* make it underline when link is valid; */
-    color: #888;
+    text-decoration: underline;
+    color: #eee;
     cursor: pointer;
 }
 
@@ -191,7 +190,7 @@ ul {
     width: 85vw;
     height: min-content;
     align-self: center;
-    margin-bottom: 5vw;
+    margin-bottom: 0.5vw;
 
     column-count: auto;
     column-gap: 1.1rem;
