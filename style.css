@@ -202,7 +202,7 @@ ul {
     width: 85vw;
     height: min-content;
     align-self: center;
-    margin-bottom: 0.5vw;
+    margin-bottom: 1rem;
 
     column-count: auto;
     column-gap: 1.1rem;
@@ -367,16 +367,17 @@ ul {
 
 .input-small {
     width: 100%;
+    height: min-content;
 
-    padding-left: 1vw;
+    padding: 1vw;
     border: none;
     border-bottom: 0.6vw #fff0 solid;
-    border-radius: 1vw;
+    border-radius: 1.5vw;
     outline: none;
     background-color: #fff1;
     color: #fff;
 
-    transition: ease-out 200ms;
+    transition: border ease-out 200ms;
 
     font-family: inherit;
     font-size: inherit;
@@ -391,15 +392,15 @@ ul {
 .input-big {
     width: 100%;
 
-    padding-left: 1vw;
+    padding: 1vw;
     border: none;
     border-bottom: 0.6vw #fff0 solid;
-    border-radius: 1vw;
+    border-radius: 1.5vw;
     outline: none;
     background-color: #fff1;
     color: #fff;
 
-    transition: ease-out 200ms;
+    transition: border ease-out 200ms;
 
     font-family: inherit;
     font-size: inherit;
@@ -435,6 +436,63 @@ ul {
     background-color: #fff6;
 }
 
-#feedback-info{
+#feedback-info {
     font-size: 1rem;
+}
+
+@media screen and (min-width: 799px) {
+    .feedback-container {
+        width: 85vw;
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+
+        padding: 1.1rem;
+        border-radius: 1rem;
+
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1.1rem;
+
+        font-size: 1.2rem;
+    }
+
+    .name-email-container {
+        flex-flow: row nowrap;
+        gap: 1.1rem;
+    }
+
+    .input-small {
+        padding: 0.5rem;
+        border-bottom: 0.2rem #fff0 solid;
+        border-radius: 0.4rem;
+    }
+
+    .input-small:focus {
+        border-bottom: 0.2rem #ffff solid;
+    }
+
+    .input-big {
+        padding: 0.5rem;
+        border-bottom: 0.2rem #fff0 solid;
+        border-radius: 0.4rem;
+    }
+
+    .input-big:focus {
+        border-bottom: 0.2rem #ffff solid;
+    }
+
+    .feedback-btn {
+        height: min-content;
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+
+        transition: ease-out 100ms;
+
+        font-size: 1.6rem;
+    }
+
+    #feedback-info {
+        font-size: 1.6rem;
+    }
 }
