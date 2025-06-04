@@ -327,4 +327,87 @@ ul {
 
 
 
-/* Feedback Page */
+/* Feedback Page (mobile first) */
+
+.feedback-container {
+    width: 90vw;
+    min-height: 10vw;
+    height: min-content;
+
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+
+    align-self: center;
+
+    padding: 3vw;
+    background-color: #0004;
+    border-radius: 3vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3vw;
+
+    font-family: NotoSansJP;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.name-email-container {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3vw;
+
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.input-small {
+    width: 100%;
+
+    padding-left: 1vw;
+    border: none;
+    border-bottom: 0.6vw #fff0 solid;
+    border-radius: 0vw;
+    outline: none;
+    background-color: #fff1;
+    color: #fff;
+
+    transition: ease-out 200ms;
+
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.input-small:focus {
+    border-bottom: 0.6vw #ffff solid;
+        background-color: #fff2;
+}
+
+.input-big {
+    width: 100%;
+
+    padding-left: 1vw;
+    border: none;
+    border-bottom: 0.6vw #fff0 solid;
+    border-radius: 0vw;
+    outline: none;
+    background-color: #fff1;
+    color: #fff;
+
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+    resize: vertical;
+    overflow: hidden;
+}
+
+.input-big:focus {
+    border-bottom: 0.6vw #ffff solid;
+        background-color: #fff2;
+}
