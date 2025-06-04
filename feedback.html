@@ -10,23 +10,25 @@
 
 <body>
     <div class="background"></div>
-    <p class="medium-title">Feedback - <a class="underline" href="index.html">Arctic's Resource Collection</a></p>
+    <p class="medium-title">(WIP) Feedback - <a class="underline" href="index.html">Arctic's Resource Collection</a></p>
 
     <div class="feedback-container">
+        <p id="feedback-info">This doesn't actually send!</p>
         <div class="name-email-container">
-            <input id="input-name" name="name" type="text" placeholder="name (optional)"   class="input-small">
+            <input id="input-name" name="name" type="text" placeholder="name (optional)" class="input-small">
             <input id="input-email" name="email" type="email" placeholder="email (optional)" class="input-small">
         </div>
-        <input id="input-title" name="title" type="text" placeholder="title*"  class="input-small">
+        <input id="input-title" name="title" type="text" placeholder="title*" class="input-small">
         <textarea id="input-big-text" name="big-text" rows="5" placeholder="text*" class="input-big"
-        oninput="this.style.height='auto'; this.style.height = this.scrollHeight + 'px';"></textarea>
+            oninput="this.style.height='auto'; this.style.height = this.scrollHeight + 'px';"></textarea>
+        <button id="feedback-btn" onclick="sendFunction()" class="feedback-btn">Send</button>
     </div>
 
     <div class="main-page-info">
         <p class="copyright-text">Copyright &copy; 2025</p>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>

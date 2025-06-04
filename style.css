@@ -169,7 +169,7 @@ ul {
     }
 
     .main-page-info {
-        font-size: 4.5vw;
+        font-size: 4vw;
         font-weight: 200;
         margin-bottom: 3vw;
     }
@@ -371,7 +371,7 @@ ul {
     padding-left: 1vw;
     border: none;
     border-bottom: 0.6vw #fff0 solid;
-    border-radius: 0vw;
+    border-radius: 1vw;
     outline: none;
     background-color: #fff1;
     color: #fff;
@@ -385,7 +385,7 @@ ul {
 
 .input-small:focus {
     border-bottom: 0.6vw #ffff solid;
-        background-color: #fff2;
+    background-color: #fff2;
 }
 
 .input-big {
@@ -394,10 +394,12 @@ ul {
     padding-left: 1vw;
     border: none;
     border-bottom: 0.6vw #fff0 solid;
-    border-radius: 0vw;
+    border-radius: 1vw;
     outline: none;
     background-color: #fff1;
     color: #fff;
+
+    transition: ease-out 200ms;
 
     font-family: inherit;
     font-size: inherit;
@@ -409,5 +411,30 @@ ul {
 
 .input-big:focus {
     border-bottom: 0.6vw #ffff solid;
-        background-color: #fff2;
+    background-color: #fff2;
+}
+
+.feedback-btn {
+    width: 100%;
+    height: 1.6rem;
+
+    border: none;
+    border-radius: 1vw;
+    outline: none;
+    background-color: #fff4;
+    color: #fff;
+
+    transition: ease-out 100ms;
+
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.feedback-btn:active {
+    transform: scale(0.95);
+    background-color: #fff6;
+}
+
+#feedback-info{
+    font-size: 1rem;
 }
