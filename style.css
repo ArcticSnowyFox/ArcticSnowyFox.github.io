@@ -85,6 +85,7 @@ ul {
     font-size: 4rem;
     font-weight: 300;
     text-align: left;
+    line-height: 4.5rem;
 
     border-bottom: 0.01rem solid #0000;
     margin-bottom: 0.15rem;
@@ -156,11 +157,12 @@ ul {
     }
 
     .big-list-item {
-        font-size: 11vw;
+        font-size: 10vw;
         text-decoration: underline;
         margin-bottom: 0;
         border-bottom: none;
         transition: 0ms;
+        line-height: 13vw;
     }
 
     .big-list-item:hover {
