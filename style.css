@@ -74,8 +74,9 @@ ul {
 
 .big-list {
     width: calc(50vw + 10rem);
+    height: fit-content;
     align-self: flex-end;
-    overflow-x: visible;
+    overflow-y: hidden;
     margin-top: 1rem;
 }
 
